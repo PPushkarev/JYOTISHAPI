@@ -1,0 +1,32 @@
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Confidential data
+# (This is where your OpenAI keys and other secrets will be stored)
+.env
+
+# IDE settings (PyCharm, VS Code)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+api_debug.log
+.pytest_cache/
+htmlcov/
+dist/
+build/
+
+# Docker
+#.dockerignore

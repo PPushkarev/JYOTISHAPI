@@ -1,0 +1,9 @@
+# .dockerignore
+venv/
+.git/
+__pycache__/
+*.pyc
+logs/
+birth_charts.json
+.env
+tests/
