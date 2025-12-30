@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)
 ![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![CI Status](https://github.com/ТВОЙ_ЛОГИН/ТВОЕ_ИМЯ_РЕПОЗИТОРИЯ/actions/workflows/tests.yml/badge.svg)
+![CI Status](https://github.com/PPushkarev/JYOTISHAPI.git/actions/workflows/tests.yml/badge.svg)
 
 **Astroparamita JYOTISH API** is a professional-grade microservice designed for Vedic astrology calculations and real-time transit analysis. Built with **Clean Architecture** principles, it leverages the precision of the Swiss Ephemeris to provide detailed insights into planetary positions, house scores, and astrological periods.
 
