@@ -29,7 +29,7 @@ The API is deployed and accessible online:
 - **ReDoc**: [https://jyotishapi-production.up.railway.app/redoc](https://jyotishapi-production.up.railway.app/redoc)
  **Health Status**: `Active`
 - 
-### 💻 Local Development
+###  Local Development
 If you are running the service locally (via Docker or Python):
 - **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
 - **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
