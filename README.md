@@ -1,32 +1,38 @@
-# 🪐 ASTROPARAMITA JYOTISH Transit Engine API
+#  ASTROPARAMITA JYOTISH Transit Engine API
 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)
 ![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)
 ![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![CI Status](https://github.com/pavel-dev/astro-api/actions/workflows/tests.yml/badge.svg)
 
 **Astroparamita JYOTISH API** is a professional-grade microservice designed for Vedic astrology calculations and real-time transit analysis. Built with **Clean Architecture** principles, it leverages the precision of the Swiss Ephemeris to provide detailed insights into planetary positions, house scores, and astrological periods.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- 🔭 **Precision Calculations**: Powered by `pyswisseph` (Swiss Ephemeris) for high astronomical accuracy.
-- 📊 **Deep Transit Analysis**: Automated scoring for houses, planet aspects, Sade-Sati detection, and Vimshottari Dasha periods.
-- 🚀 **High Performance**: Optimized core logic with an average request processing time of **< 20ms**.
-- 🐳 **Production Ready**: Fully containerized with Docker, featuring centralized logging and health monitoring.
-- 🛡️ **Robust Validation**: Strict data schema enforcement using Pydantic v2.
+-  **Precision Calculations**: Powered by `pyswisseph` (Swiss Ephemeris) for high astronomical accuracy.
+-  **Deep Transit Analysis**: Automated scoring for houses, planet aspects, Sade-Sati detection, and Vimshottari Dasha periods.
+-  **High Performance**: Optimized core logic with an average request processing time of **< 20ms**.
+-  **Production Ready**: Fully containerized with Docker, featuring centralized logging and health monitoring.
+- 🛡 **Robust Validation**: Strict data schema enforcement using Pydantic v2.
 
+---
+## Live Demo
+ **API Documentation**: [https://jyotishapi-production.up.railway.app/docs](https://jyotishapi-production.up.railway.app/docs)
+ **Health Status**: `Active`
 
-## 📖 Interactive API Documentation
+---
+##  Interactive API Documentation
 
 Once the service is running, you can access the interactive documentation at:
 - **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
 - **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 ---
 
-## 🛠 Reliability & Production Standards
+##  Reliability & Production Standards
 
 - **Error Handling**: Graceful error management with clear HTTP exception responses and detailed internal traceback logging.
 - **Logging Strategy**: Structured logging implemented via `FileHandler` and `StreamHandler` for both persistence and real-time container monitoring.
@@ -35,7 +41,7 @@ Once the service is running, you can access the interactive documentation at:
 ---
 
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Framework**: [FastAPI](https://fastapi.tiangolo.com/) (Asynchronous Python Web Framework)
 - **Validation**: [Pydantic v2](https://docs.pydantic.dev/)
@@ -45,7 +51,7 @@ Once the service is running, you can access the interactive documentation at:
 
 ---
 
-## 🏗 System Architecture
+##  System Architecture
 
 The project follows a modular structure to ensure maintainability and scalability:
 
@@ -60,7 +66,7 @@ The project follows a modular structure to ensure maintainability and scalabilit
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.11+ or Docker installed.
@@ -70,3 +76,10 @@ Spin up the service in seconds:
 ```bash
 make docker-build
 make docker-run
+```
+
+---
+### Environment Variables
+1. Rename `.env.example` to `.env`.
+2. Configure your local `PORT` and `PYTHONPATH`.
+3. For production, set these variables in your hosting provider (Railway/AWS).
