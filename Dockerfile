@@ -30,8 +30,9 @@ ENV PYTHONUNBUFFERED=1
 # Critical: Make sure Python can find core.py and core_files
 ENV PYTHONPATH=/app
 
-# 8. Expose the API port
-EXPOSE 8000
+# 8. Expose the API port (Railway сам переназначит его, но для ясности оставим)
+EXPOSE 8080
 
-# 9. Start the application as a module
-CMD ["python", "-m", "app.api"]
+# 9. Запуск через uvicorn (обязательно указываем хост 0.0.0.0)
+# Используем конструкцию, которая берет PORT из настроек Railway
+CMD ["sh", "-c", "uvicorn app.api:app --host 0.0.0.0 --port ${PORT:-8080}"]
