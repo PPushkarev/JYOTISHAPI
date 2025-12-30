@@ -17,17 +17,20 @@
 -  **Deep Transit Analysis**: Automated scoring for houses, planet aspects, Sade-Sati detection, and Vimshottari Dasha periods.
 -  **High Performance**: Optimized core logic with an average request processing time of **< 20ms**.
 -  **Production Ready**: Fully containerized with Docker, featuring centralized logging and health monitoring.
-- 🛡 **Robust Validation**: Strict data schema enforcement using Pydantic v2.
+-  **Robust Validation**: Strict data schema enforcement using Pydantic v2.
+
 
 ---
-## Live Demo
- **API Documentation**: [https://jyotishapi-production.up.railway.app/docs](https://jyotishapi-production.up.railway.app/docs)
+## Interactive API Documentation
+
+### Production (Live Server)
+The API is deployed and accessible online:
+- **Swagger UI**: [https://jyotishapi-production.up.railway.app/docs](https://jyotishapi-production.up.railway.app/docs)
+- **ReDoc**: [https://jyotishapi-production.up.railway.app/redoc](https://jyotishapi-production.up.railway.app/redoc)
  **Health Status**: `Active`
-
----
-##  Interactive API Documentation
-
-Once the service is running, you can access the interactive documentation at:
+- 
+### 💻 Local Development
+If you are running the service locally (via Docker or Python):
 - **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
 - **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 ---
