@@ -27,6 +27,6 @@ api_debug.log
 htmlcov/
 dist/
 build/
-
+birth_charts.json
 # Docker
 #.dockerignore
