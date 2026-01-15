@@ -186,7 +186,7 @@ If you are running the service locally (via Docker or Python):
 
 - **Framework**: [FastAPI](https://fastapi.tiangolo.com/) (Asynchronous Python Web Framework)
 - **Validation**: [Pydantic v2](https://docs.pydantic.dev/)
-- **Astronomy Core**: [Swiss Ephemeris](https://github.com/astrorama/pyswisseph)
+- **Astronomy Core**: [Swiss Ephemeris](https://www.astro.com/swisseph/swepha_e.htm)
 - **DevOps**: Docker, GitHub Actions (CI), Makefile
 - **Testing**: Pytest (Unit & Integration)
 
